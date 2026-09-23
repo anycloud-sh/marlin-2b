@@ -1,0 +1,9 @@
+{
+  "id": "marlin-ref-35932144994-1",
+  "state": "completed",
+  "image": "pytorch/pytorch@sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+  "imageDigest": "sha256:eee11b3b3872a8c838e35ef48f08b2d5def2080902c7f666831310ca1a0ef2be",
+  "completedAt": 1790205570581,
+  "cleanedAt": 1790205668824,
+  "workflow_url": "https://github.com/anycloud-sh/anycloud/actions/runs/35932144994"
+}

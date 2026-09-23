@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!runtime_setup.py
+!infer.py
+!LICENSE
+!NOTICE
+!examples/
+!examples/**

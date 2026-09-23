@@ -1,0 +1,35 @@
+[
+  {
+    "id": "caption-bbb-1",
+    "clip_id": "bbb-1",
+    "mode": "caption",
+    "visible_concepts": [
+      ["rabbit", "bunny"],
+      ["tree", "grass", "forest"]
+    ]
+  },
+  {
+    "id": "caption-bbb-2",
+    "clip_id": "bbb-2",
+    "mode": "caption",
+    "visible_concepts": [
+      ["rabbit", "bunny"],
+      ["squirrel", "rodent", "animals"]
+    ]
+  },
+  {
+    "id": "caption-bbb-3",
+    "clip_id": "bbb-3",
+    "mode": "caption",
+    "visible_concepts": [["butterfly"], ["squirrel", "rodent", "animal"]]
+  },
+  {
+    "id": "find-bbb-3",
+    "clip_id": "bbb-3",
+    "mode": "find",
+    "event": "a squirrel looks at a purple butterfly",
+    "expected_span_seconds": [2.0, 4.0],
+    "minimum_iou": 0.35,
+    "annotation": "Coarse interval fixed before model execution from the source contact sheet: butterfly and squirrel visible around 3 seconds, between the GET READY and Big Buck Bunny title cards. This is a smoke-test annotation, not benchmark ground truth."
+  }
+]

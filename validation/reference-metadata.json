@@ -1,0 +1,54 @@
+{
+  "model": "NemoStation/Marlin-2B",
+  "model_revision": "fd111fca4fc7897876fb0d7e9df22ca5ac8ab965",
+  "modeling_sha256": "baec8f0a2cabf5d64a883d8b5ac1881a9119f91f2251e6964f45447d24b19733",
+  "processor_config_sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.7.0",
+  "cuda": "12.8",
+  "gpu": "NVIDIA A10",
+  "cuda_matrix_check": "passed",
+  "all_parameters_on_cuda": true,
+  "video_environment": {
+    "FORCE_QWENVL_VIDEO_READER": "torchcodec",
+    "VIDEO_MAX_PIXELS": "200704",
+    "FPS": "2.0",
+    "FPS_MAX_FRAMES": "240",
+    "FPS_MIN_FRAMES": "4"
+  },
+  "video_processor": {
+    "do_convert_rgb": true,
+    "do_normalize": true,
+    "do_rescale": true,
+    "do_resize": true,
+    "do_sample_frames": true,
+    "fps": 2,
+    "image_mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "image_std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "max_frames": 768,
+    "merge_size": 2,
+    "min_frames": 4,
+    "patch_size": 16,
+    "resample": 3,
+    "rescale_factor": 0.00392156862745098,
+    "return_metadata": false,
+    "size": {
+      "longest_edge": 25165824,
+      "shortest_edge": 4096
+    },
+    "temporal_patch_size": 2,
+    "video_processor_type": "Qwen3VLVideoProcessor"
+  },
+  "model_load_seconds": 14.965,
+  "total_seconds": 49.365,
+  "peak_allocated_bytes": 5962806784,
+  "compile": false
+}

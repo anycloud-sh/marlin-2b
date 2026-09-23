@@ -1,0 +1,45 @@
+Marlin-2B on AnyCloud
+
+This independent, AnyCloud-powered artifact packages the creator's public
+caption() and find() helpers as a finite batch Job. It adds input/output,
+validation, and reproducibility metadata without changing model weights,
+canonical prompts, generation defaults, or upstream parsing.
+
+Model: NemoStation/Marlin-2B
+https://huggingface.co/NemoStation/Marlin-2B
+Pinned revision: fd111fca4fc7897876fb0d7e9df22ca5ac8ab965
+The model's gated weights and custom code download at runtime using each
+operator's approved Hugging Face access; they are not baked into the image.
+
+Upstream NOTICE (verbatim):
+
+Marlin 2B
+Copyright (c) 2026 NemoStation
+
+This product includes weights derived from Qwen3.5-2B
+(https://huggingface.co/Qwen/Qwen3.5-2B), Copyright (c) 2025 Alibaba Cloud,
+used under the Apache License, Version 2.0.
+
+Modifications by NemoStation include: integration of a video-capable
+visual tower, custom training data curation (~400K clip-level annotations
+with Gemini-3-Flash teacher distillation), two-stage SFT + SimPO
+post-training, and custom modeling code (modeling_marlin.py) exposing
+the .caption() and .find() inference modes.
+
+Marlin 2B is distributed under the Apache License, Version 2.0
+(see LICENSE).
+
+Example videos:
+
+(c) copyright 2008, Blender Foundation / www.bigbuckbunny.org
+Big Buck Bunny trailer excerpts, Creative Commons Attribution 3.0.
+License: https://creativecommons.org/licenses/by/3.0/
+Creator's attribution terms: https://peach.blender.org/about/
+Trailer source: https://media.w3.org/2010/05/bunny/trailer.mp4
+Modifications: three equal excerpts, audio removed, black padding to even
+dimensions, H.264 CRF 18 single-threaded encoding. Exact source offsets and
+hashes are recorded in examples/manifest.json. These are smoke-test examples,
+not an accuracy benchmark. Titles and footage retain their original content.
+
+The wrapper and validation code are distributed under Apache-2.0; example
+video rights and attribution remain governed by CC BY 3.0.
