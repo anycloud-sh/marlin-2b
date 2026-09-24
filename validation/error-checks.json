@@ -1,0 +1,21 @@
+{
+  "image": "ghcr.io/anycloud-sh/marlin-2b@sha256:4f26458f3753febf5e628bfd30b31c2100e1e6a51983fa0d78de31395281cfbd",
+  "checks": {
+    "missing_model_access": {
+      "exit_code": 1,
+      "expected_error": "HF_TOKEN is required"
+    },
+    "unreadable_video": {
+      "exit_code": 1,
+      "expected_error": "unreadable video"
+    },
+    "duplicate_ids": {
+      "exit_code": 1,
+      "expected_error": "unique non-empty string"
+    },
+    "unsupported_duration": {
+      "exit_code": 1,
+      "expected_error": "at most 120 seconds"
+    }
+  }
+}

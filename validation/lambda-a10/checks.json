@@ -1,0 +1,16 @@
+{
+  "default": {
+    "rows": 3,
+    "helper_result_parity": "exact",
+    "token_parity": "exact",
+    "preprocessed_tensor_parity": "exact",
+    "persisted_after_cleanup": true
+  },
+  "custom": {
+    "rows": 1,
+    "helper_result_parity": "exact",
+    "token_parity": "exact",
+    "preprocessed_tensor_parity": "exact",
+    "persisted_after_cleanup": true
+  }
+}

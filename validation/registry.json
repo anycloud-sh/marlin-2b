@@ -1,0 +1,8 @@
+{
+  "image": "ghcr.io/anycloud-sh/marlin-2b@sha256:4f26458f3753febf5e628bfd30b31c2100e1e6a51983fa0d78de31395281cfbd",
+  "artifact_revision": "3dfbbe159f1a1116069d4e7cb690695a7c0184c8",
+  "anonymous_pull": true,
+  "repository_linked": true,
+  "repository": "https://github.com/anycloud-sh/marlin-2b",
+  "platform": "linux/amd64"
+}

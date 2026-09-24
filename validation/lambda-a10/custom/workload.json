@@ -1,0 +1,8 @@
+{
+  "id": "marlin-custom-44f3d7328884",
+  "state": "completed",
+  "image": "ghcr.io/anycloud-sh/marlin-2b@sha256:4f26458f3753febf5e628bfd30b31c2100e1e6a51983fa0d78de31395281cfbd",
+  "imageDigest": "sha256:4f26458f3753febf5e628bfd30b31c2100e1e6a51983fa0d78de31395281cfbd",
+  "completedAt": 1790207786935,
+  "cleanedAt": 1790207893473
+}
